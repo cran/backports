@@ -1,9 +1,10 @@
-0ff52426af0a35d20b1c8814a1f0c727 *DESCRIPTION
-57e5b705928c7845833d055aeaeb3d57 *NAMESPACE
-015038e48ad7af4d031f544933d66e7e *NEWS.md
+4dd4cc3e11aaafbccf856019ab3db88c *DESCRIPTION
+0280d2d6133c425dab7d44dec3333b56 *NAMESPACE
+a4af1e0c472c8aa683abdf6dfcca7c25 *NEWS.md
 a2ba264751a3ce1d5fff5b1b6873a02b *R/anyNA.r
 1196f52025cd26c3b60f7ef854a154d9 *R/dir.exists.r
 2ab5f08edac2623b9c2a2e37b8ca71bf *R/endsWith.r
+aa2a8fe25615e7aa5840deaf9295d55f *R/file.x.r
 97278c75b6493ada49af553aeae9e919 *R/lengths.r
 d067a6d2e5c2b58c3e92cd6086a2ef2b *R/startsWith.r
 2d873dcae9995c3acb44bd3b86f2bc1b *R/strrep.r
@@ -11,6 +12,7 @@ d067a6d2e5c2b58c3e92cd6086a2ef2b *R/startsWith.r
 8f39a80967bbb9d015cc6f4539a3d0ef *man/anyNA.Rd
 be01f545641ae30899a212d3f9a520ac *man/dir.exists.Rd
 afcd43ac5293ab8388d63cf4bebf5bca *man/endsWith.Rd
+d0bdd246a9c2db581bdebd5b944b5c38 *man/file.size.Rd
 368a05585493c0a066abdc58d8d0ec44 *man/lengths.Rd
 d0d5dab4fb5b9998d8ef065ec3f3d797 *man/startsWith.Rd
 0b1432f279f943e3ecd3891f354fe5e1 *man/strrep.Rd
@@ -19,6 +21,7 @@ e291c1766b35d6b27eadcf6c35dc9750 *tests/testthat.R
 30056e4c5431f79dd41fe32a4779b9e5 *tests/testthat/helper.r
 cc2967f0b14671ab390a8051dbaed00f *tests/testthat/test_anyNA.r
 045a7809275fe7616284d043afd529a5 *tests/testthat/test_dir.exists.r
+e29fe1c91ed5929c2a6ef5b04fb8bad5 *tests/testthat/test_file.x.r
 ff3d28e075ac95148f6c9591d86c57f8 *tests/testthat/test_lengths.r
 5b0bfbcbebd1b9d3f2df7d3b475e28c5 *tests/testthat/test_startsWith.r
 d2068c4137c48d583b5c01a94ecd8944 *tests/testthat/test_strrep.r
