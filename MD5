@@ -1,10 +1,10 @@
-4dd4cc3e11aaafbccf856019ab3db88c *DESCRIPTION
+eb68afa0a6b7b2e86453595d9c447605 *DESCRIPTION
 0280d2d6133c425dab7d44dec3333b56 *NAMESPACE
-a4af1e0c472c8aa683abdf6dfcca7c25 *NEWS.md
+98d38cf98c5e7d96eec22a39120e1295 *NEWS.md
 a2ba264751a3ce1d5fff5b1b6873a02b *R/anyNA.r
 1196f52025cd26c3b60f7ef854a154d9 *R/dir.exists.r
 2ab5f08edac2623b9c2a2e37b8ca71bf *R/endsWith.r
-aa2a8fe25615e7aa5840deaf9295d55f *R/file.x.r
+da23a38c662651cb6b6b69eb96c80697 *R/file.x.r
 97278c75b6493ada49af553aeae9e919 *R/lengths.r
 d067a6d2e5c2b58c3e92cd6086a2ef2b *R/startsWith.r
 2d873dcae9995c3acb44bd3b86f2bc1b *R/strrep.r
