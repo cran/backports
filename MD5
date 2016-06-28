@@ -1,14 +1,14 @@
-eb68afa0a6b7b2e86453595d9c447605 *DESCRIPTION
+88f423cd3214c339694c3b143093af14 *DESCRIPTION
 0280d2d6133c425dab7d44dec3333b56 *NAMESPACE
-98d38cf98c5e7d96eec22a39120e1295 *NEWS.md
+009f4dbb1dcca108751ca7b8d8b94502 *NEWS.md
 a2ba264751a3ce1d5fff5b1b6873a02b *R/anyNA.r
 1196f52025cd26c3b60f7ef854a154d9 *R/dir.exists.r
-2ab5f08edac2623b9c2a2e37b8ca71bf *R/endsWith.r
+99ea50bf71681b5d3517183dcd882965 *R/endsWith.r
 da23a38c662651cb6b6b69eb96c80697 *R/file.x.r
 97278c75b6493ada49af553aeae9e919 *R/lengths.r
-d067a6d2e5c2b58c3e92cd6086a2ef2b *R/startsWith.r
-2d873dcae9995c3acb44bd3b86f2bc1b *R/strrep.r
-4f88693cf94dc832eea2b9e4883b640f *R/trimws.r
+5c6cf778592fc61778413dc68e2ee62f *R/startsWith.r
+05b45147f8e5a84ebfc17019382320b7 *R/strrep.r
+990a6b8d336602ea34b9d04f4ce2d4ed *R/trimws.r
 8f39a80967bbb9d015cc6f4539a3d0ef *man/anyNA.Rd
 be01f545641ae30899a212d3f9a520ac *man/dir.exists.Rd
 afcd43ac5293ab8388d63cf4bebf5bca *man/endsWith.Rd
@@ -24,5 +24,5 @@ cc2967f0b14671ab390a8051dbaed00f *tests/testthat/test_anyNA.r
 e29fe1c91ed5929c2a6ef5b04fb8bad5 *tests/testthat/test_file.x.r
 ff3d28e075ac95148f6c9591d86c57f8 *tests/testthat/test_lengths.r
 5b0bfbcbebd1b9d3f2df7d3b475e28c5 *tests/testthat/test_startsWith.r
-d2068c4137c48d583b5c01a94ecd8944 *tests/testthat/test_strrep.r
+5801ca2751141cacdddb8f6730d41e20 *tests/testthat/test_strrep.r
 00c531d37cc7b69f0d81ac7aae9df50c *tests/testthat/test_trimws.r
