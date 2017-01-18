@@ -2,16 +2,19 @@
 % Please edit documentation in R/lengths.R
 \name{lengths}
 \alias{lengths}
-\title{Backport of lengths}
+\title{Backport of lengths for R < 3.2.0}
 \usage{
 lengths(x, use.names = TRUE)
-}
-\arguments{
-\item{x}{See description.}
-
-\item{use.names}{See description.}
 }
 \description{
 See the original description in \code{base::lengths}.
 }
+\examples{
+# get function from namespace instead of possibly getting
+# implementation shipped with recent R versions:
+bp_lengths = getFromNamespace("lengths", "backports")
+
+bp_lengths(list(1:3, 2))
+}
+\keyword{internal}
 

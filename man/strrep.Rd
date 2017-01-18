@@ -2,16 +2,19 @@
 % Please edit documentation in R/strrep.R
 \name{strrep}
 \alias{strrep}
-\title{Backport of strrep}
+\title{Backport of strrep for R < 3.3.0}
 \usage{
 strrep(x, times)
-}
-\arguments{
-\item{x}{See description.}
-
-\item{times}{See description.}
 }
 \description{
 See the original description in \code{base::strrep}.
 }
+\examples{
+# get function from namespace instead of possibly getting
+# implementation shipped with recent R versions:
+bp_strrep = getFromNamespace("strrep", "backports")
+
+bp_strrep("-", 10)
+}
+\keyword{internal}
 

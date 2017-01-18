@@ -1,3 +1,8 @@
+# backports 1.0.5
+
+* Added `get0()` for R versions prior to 3.2.0.
+* Added examples.
+
 # backports 1.0.4
 
 * Added `hasName()` for R versions prior to 3.4.0

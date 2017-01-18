@@ -1,7 +1,7 @@
 Package: backports
 Type: Package
 Title: Reimplementations of Functions Introduced Since R-3.0.0
-Version: 1.0.4
+Version: 1.0.5
 Author: Michel Lang <michellang@gmail.com>
 Maintainer: Michel Lang <michellang@gmail.com>
 Description: Implementations of functions which have been introduced in
@@ -16,8 +16,8 @@ License: GPL-2
 NeedsCompilation: no
 ByteCompile: yes
 Depends: R (>= 3.0.0)
-Suggests: checkmate
+Imports: utils
 RoxygenNote: 5.0.1
-Packaged: 2016-10-24 12:42:24 UTC; lang
+Packaged: 2017-01-18 08:47:45 UTC; lang
 Repository: CRAN
-Date/Publication: 2016-10-24 17:14:21
+Date/Publication: 2017-01-18 18:07:29

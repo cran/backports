@@ -2,14 +2,19 @@
 % Please edit documentation in R/dir.exists.R
 \name{dir.exists}
 \alias{dir.exists}
-\title{Backport of dir.exists}
+\title{Backport of dir.exists for R < 3.2.0}
 \usage{
 dir.exists(paths)
-}
-\arguments{
-\item{paths}{See description.}
 }
 \description{
 See the original description in \code{base::dir.exists}.
 }
+\examples{
+# get function from namespace instead of possibly getting
+# implementation shipped with recent R versions:
+bp_dir.exists = getFromNamespace("dir.exists", "backports")
+
+bp_dir.exists(tempdir())
+}
+\keyword{internal}
 

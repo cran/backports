@@ -2,16 +2,19 @@
 % Please edit documentation in R/startsWith.R
 \name{startsWith}
 \alias{startsWith}
-\title{Backport of startsWith}
+\title{Backport of startsWith for R < 3.3.0}
 \usage{
 startsWith(x, prefix)
-}
-\arguments{
-\item{x}{See description.}
-
-\item{prefix}{See description.}
 }
 \description{
 See the original description in \code{base::startsWith}.
 }
+\examples{
+# get function from namespace instead of possibly getting
+# implementation shipped with recent R versions:
+bp_startsWith = getFromNamespace("startsWith", "backports")
+
+bp_startsWith(c("aabb", "bbcc"), "bb")
+}
+\keyword{internal}
 
