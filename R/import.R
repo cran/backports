@@ -50,16 +50,17 @@ import = function(pkgname, obj = NULL, force = FALSE) {
   invisible(TRUE)
 }
 
-get_backports = function() {
-  v = getRversion()
+get_backports = function(v = getRversion()) {
+  v = package_version(v)
   unlist(tail(FUNS, -(v$minor + 1L)), use.names = FALSE)
 }
 
 FUNS = list(
   "3.0.0" = character(),
   "3.1.0" = character(),
-  "3.2.0" = c("anyNA", "dir.exists", "file.size", "file.mode", "file.mtime", "lengths", "file.info"),
-  "3.3.0" = c("startsWith", "endsWith", "strrep", "trimws"),
+  "3.2.0" = c("anyNA", "dir.exists", "file.size", "file.mode", "file.mtime", "lengths", "file.info", "URLencode"),
+  "3.3.0" = c("startsWith", "endsWith", "strrep", "trimws", "capture.output"),
   "3.4.0" = c("hasName"),
-  "3.5.0" = c("...length", "...elt", "isFALSE")
+  "3.5.0" = c("...length", "...elt", "isFALSE"),
+  "3.6.0" = character()
 )

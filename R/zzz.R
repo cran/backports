@@ -1,5 +1,5 @@
 #' @importFrom utils getFromNamespace tail
-NULL
+"_PACKAGE"
 
 .onUnload = function (libpath) {
   library.dynam.unload("backports", libpath)
