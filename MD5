@@ -1,6 +1,6 @@
-8427df25f3ee6f59a2369fcb50258b64 *DESCRIPTION
-357eb4159be0f88d0bc1f9766580835b *NAMESPACE
-0ef975d2b6939293b3caadec9d4314f6 *NEWS.md
+e6fd8c0fea44004b39110c049a726589 *DESCRIPTION
+85b2d45c97779f9796381b79f7a65a35 *NAMESPACE
+88e4dba25018febb2a50616de028924e *NEWS.md
 6dee293e8cc80c13e777ee75195e03dc *R/URLencode.R
 41879b295859b9f3dd0efc69737d4a12 *R/anyNA.R
 468d9bbccb7a11e522ae6adc2a7df396 *R/capture.output.R
@@ -16,6 +16,7 @@ fd795349608133c5b9b4850c8bce7115 *R/file.size.R
 b8bd9db45b49fe62e5101de2d80ac4ef *R/hasName.R
 6491e2e00194013a832465b62295bf32 *R/import.R
 71f82c7d4d76ea1bcf50c4882f2922a0 *R/isFALSE.R
+72a820a36c75b726315cdfb20fd025ac *R/isTRUE.R
 ee095da4109d7e289d11248e13ac9428 *R/lengths.R
 1d59834fa8a4c2572b8a047376837618 *R/startsWith.R
 a4f40e3e2747b16bfe0cc6e80766e0f7 *R/strrep.R
@@ -37,6 +38,7 @@ d3cbd22979c771d5d8458b741f850439 *man/get0.Rd
 f6d4b60d090845baa1d66917e6c649ae *man/hasName.Rd
 1812d999898c0e85547e717c60b1a420 *man/import.Rd
 0ef694f3021e07f821b76875888c6702 *man/isFALSE.Rd
+f066fb3e9ac733f714e68ee655df099d *man/isTRUE.Rd
 3193f8a1b410c99da87cdfd2306e4741 *man/lengths.Rd
 0a5e953c05afce33ff2f200ce43cb536 *man/startsWith.Rd
 71dccde721e5e07b058ea9988d2aa758 *man/strrep.Rd
@@ -59,7 +61,8 @@ d20ca8e00de706dfca77fc4e7e079a30 *tests/test_file.info.R
 608d8ef6d47fde8c311efeb92600e7c5 *tests/test_file.size.R
 8bbb0281ed2c45c26a8b1fe8829a8426 *tests/test_get0.R
 224c4b67349277afb9ab178127d03470 *tests/test_hasName.R
-59979fcc9294d65ac56ec1f5af289421 *tests/test_isFALSE.R
+d8037fd4dfd75db762b138fe8e74cab3 *tests/test_isFALSE.R
+6bfeb283a68c31874f2368bc1845fc0c *tests/test_isTRUE.R
 01ea7785d2d97d7364427f69ee028e43 *tests/test_lengths.R
 f5a7d4c6f5a89cd18a06029135ad1e57 *tests/test_startsWith.R
 f7bb3f7fe9fcfd990f6090c5fce29870 *tests/test_strrep.R
