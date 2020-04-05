@@ -2,10 +2,15 @@
 % Please edit documentation in R/capture.output.R
 \name{capture.output}
 \alias{capture.output}
-\title{Backport of \code{capture.output} for R < 3.3.0}
+\title{Backport of capture.output for R < 3.3.0}
 \usage{
-capture.output(..., file = NULL, append = FALSE, type = c("output",
-  "message"), split = FALSE)
+capture.output(
+  ...,
+  file = NULL,
+  append = FALSE,
+  type = c("output", "message"),
+  split = FALSE
+)
 }
 \description{
 Argument \code{type} has been backported.
