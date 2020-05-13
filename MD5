@@ -1,11 +1,12 @@
-39d56bf95e27a3536a36bbaa12e829d0 *DESCRIPTION
-e9478444a9d3ee4d405812c71a5de841 *NAMESPACE
-abacfeba29213e1a357d703d7ac1c314 *NEWS.md
+6925b19e5638604dc0c4232df3560846 *DESCRIPTION
+ccdb07230c39e95cf555e0ec98d48870 *NAMESPACE
+33ae450481bdb089af58122536416be9 *NEWS.md
 35c58f655ad5194e8af81d851c58e719 *R/R_user_dir.R
 6dee293e8cc80c13e777ee75195e03dc *R/URLencode.R
 41879b295859b9f3dd0efc69737d4a12 *R/anyNA.R
 24d8b9d2ebd6ad91d6b37527e4944e51 *R/capture.output.R
 dc36b33860d9fa47b76725c5c1793f31 *R/dQuote.R
+8ed21dc3461c82e76ecaa51ea5bbba0b *R/deparse1.R
 e1fb60c17ea8a6677c3a80637f88c830 *R/dir.exists.R
 da64e21c278b5017993dcc2321552c8f *R/dotsElt.R
 481b7311ab8961c4fef48b8ec6cd5eb0 *R/dotsLength.R
@@ -20,6 +21,7 @@ d72ac90e66c0541e471c2484260a0ade *R/import.R
 71f82c7d4d76ea1bcf50c4882f2922a0 *R/isFALSE.R
 72a820a36c75b726315cdfb20fd025ac *R/isTRUE.R
 ee095da4109d7e289d11248e13ac9428 *R/lengths.R
+8520347615531ad967d2ecae453c8d5d *R/list2DF.R
 1d59834fa8a4c2572b8a047376837618 *R/startsWith.R
 a4f40e3e2747b16bfe0cc6e80766e0f7 *R/strrep.R
 2281b9271b328f1ce44735f433c57a1b *R/trimws.R
@@ -32,6 +34,7 @@ e668b5dd4f52ce96df2cf5e26d976eac *man/R_user_dir.Rd
 9a9d0097f3be74e988c4db5b2e8e1f40 *man/backports-package.Rd
 7a57f80bd4560bd34f86c3ecc6c06a07 *man/capture.output.Rd
 37f9ce75db00bf0f39ba0472ee971695 *man/dQuote.Rd
+ee249685c9b3c6f4abbeab6f8810dfb6 *man/deparse1.Rd
 a96f841e5bb26d875daafdec0ca3a12e *man/dir.exists.Rd
 4b811bda283420d6bda01b250112119b *man/dotsElt.Rd
 54f762138570780eaacbd437e19c6ff4 *man/dotsLength.Rd
@@ -44,6 +47,7 @@ f6d4b60d090845baa1d66917e6c649ae *man/hasName.Rd
 0ef694f3021e07f821b76875888c6702 *man/isFALSE.Rd
 f066fb3e9ac733f714e68ee655df099d *man/isTRUE.Rd
 3193f8a1b410c99da87cdfd2306e4741 *man/lengths.Rd
+a94437e8614a3a9f30b1ca98bf67a56a *man/list2DF.Rd
 0a5e953c05afce33ff2f200ce43cb536 *man/startsWith.Rd
 71dccde721e5e07b058ea9988d2aa758 *man/strrep.Rd
 44c533774b88159cbd550b9d842d65a2 *man/trimws.Rd
@@ -58,6 +62,7 @@ a0cf596bf842ac7cab73d837ee3474b7 *tests/test_R_user_dir.R
 1b97afed1a49ba2f7e7588661dd78481 *tests/test_anyNA.R
 cdfdb1d1a0d354ef4cccf55d5c761268 *tests/test_capture.output.R
 73d6561fbcd5c310a6ac298d76366462 *tests/test_dQuote.R
+23a1a69bf7aac5601ac82f63d8e046d7 *tests/test_deparse1.R
 d012f4fc8d451334726a1609bb6d0584 *tests/test_dir.exists.R
 ff243305cbfd7c6c20dcf75a8b2f9b2c *tests/test_dotsElt.R
 18ccf5227a80053f5b65dea32dff8562 *tests/test_dotsLength.R
@@ -70,6 +75,7 @@ d20ca8e00de706dfca77fc4e7e079a30 *tests/test_file.info.R
 d8037fd4dfd75db762b138fe8e74cab3 *tests/test_isFALSE.R
 6bfeb283a68c31874f2368bc1845fc0c *tests/test_isTRUE.R
 01ea7785d2d97d7364427f69ee028e43 *tests/test_lengths.R
+3cb5553f1f3985b7d40aef82a0ef62e3 *tests/test_list2DF.R
 f5a7d4c6f5a89cd18a06029135ad1e57 *tests/test_startsWith.R
 f7bb3f7fe9fcfd990f6090c5fce29870 *tests/test_strrep.R
 7ff35bbbb455c565d8ebcac87a015d22 *tests/test_trimws.R
