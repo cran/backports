@@ -1,6 +1,6 @@
-6925b19e5638604dc0c4232df3560846 *DESCRIPTION
-ccdb07230c39e95cf555e0ec98d48870 *NAMESPACE
-33ae450481bdb089af58122536416be9 *NEWS.md
+332dfcdb95f73611dcb34fa70dfcbb6a *DESCRIPTION
+2fc2b6303706a59a6c8def07b807d274 *NAMESPACE
+4cc07eb860bb70c019019f75eacb3c8c *NEWS.md
 35c58f655ad5194e8af81d851c58e719 *R/R_user_dir.R
 6dee293e8cc80c13e777ee75195e03dc *R/URLencode.R
 41879b295859b9f3dd0efc69737d4a12 *R/anyNA.R
@@ -17,7 +17,7 @@ f03ad94562dfb233f213366ceb192900 *R/file.mode.R
 fd795349608133c5b9b4850c8bce7115 *R/file.size.R
 14e2f4982a54c0309a4fa7ca4309c286 *R/get0.R
 b8bd9db45b49fe62e5101de2d80ac4ef *R/hasName.R
-d72ac90e66c0541e471c2484260a0ade *R/import.R
+522c5f1ee1b4f437bbc1d593f02fb82e *R/import.R
 71f82c7d4d76ea1bcf50c4882f2922a0 *R/isFALSE.R
 72a820a36c75b726315cdfb20fd025ac *R/isTRUE.R
 ee095da4109d7e289d11248e13ac9428 *R/lengths.R
@@ -26,6 +26,7 @@ ee095da4109d7e289d11248e13ac9428 *R/lengths.R
 a4f40e3e2747b16bfe0cc6e80766e0f7 *R/strrep.R
 2281b9271b328f1ce44735f433c57a1b *R/trimws.R
 f0a491f2249c61d129127d5277b428db *R/valid.factor.R
+b08798c5a61f613c60c595fbe01978a1 *R/vignetteInfo.R
 fdad95605776f3d0a6dca00edacc3d50 *R/warningCondition.R
 9e4401edc286c70460489da20abaf236 *R/zzz.R
 e668b5dd4f52ce96df2cf5e26d976eac *man/R_user_dir.Rd
@@ -43,7 +44,7 @@ fff4aab715b29f9a293e46eedbba73fc *man/endsWith.Rd
 f0364a969e7687778d4b2e2a651612a0 *man/file.size.Rd
 28cd0eaf06e1bb3ef808783fc9f217b2 *man/get0.Rd
 f6d4b60d090845baa1d66917e6c649ae *man/hasName.Rd
-1812d999898c0e85547e717c60b1a420 *man/import.Rd
+82c1d09b33edcb8c578c9452f0ff621a *man/import.Rd
 0ef694f3021e07f821b76875888c6702 *man/isFALSE.Rd
 f066fb3e9ac733f714e68ee655df099d *man/isTRUE.Rd
 3193f8a1b410c99da87cdfd2306e4741 *man/lengths.Rd
@@ -52,6 +53,7 @@ a94437e8614a3a9f30b1ca98bf67a56a *man/list2DF.Rd
 71dccde721e5e07b058ea9988d2aa758 *man/strrep.Rd
 44c533774b88159cbd550b9d842d65a2 *man/trimws.Rd
 f2ab99b5fe125ca043a77b89ff74bcf5 *man/valid.factor.Rd
+636be43bf723e385435321ffed55f176 *man/vignetteInfo.Rd
 a9c2a5a46917fa75d978f04b1eeb3b16 *man/warningCondition.Rd
 d59274bb19ef27e3774e9d1bed9fb93e *src/dotsElt.c
 dea82a2ee366ce1253864931672df2cd *src/dotsLength.c
