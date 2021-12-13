@@ -1,6 +1,6 @@
-6bdf4bceae2fec668a9c15aeecc1e68b *DESCRIPTION
+dcae325a172db42f3c1e099a01322639 *DESCRIPTION
 4f4794836a94e4ff595414fdee688666 *NAMESPACE
-00d00e2dc3b78a7d4090582050666e8f *NEWS.md
+679db662c4ea866704a5df27318ecc7b *NEWS.md
 35c58f655ad5194e8af81d851c58e719 *R/R_user_dir.R
 6dee293e8cc80c13e777ee75195e03dc *R/URLencode.R
 41879b295859b9f3dd0efc69737d4a12 *R/anyNA.R
@@ -78,7 +78,7 @@ f2ab99b5fe125ca043a77b89ff74bcf5 *man/valid.factor.Rd
 a9c2a5a46917fa75d978f04b1eeb3b16 *man/warningCondition.Rd
 d59274bb19ef27e3774e9d1bed9fb93e *src/dotsElt.c
 dea82a2ee366ce1253864931672df2cd *src/dotsLength.c
-ef74f0004b4d2578f95c97a70a1ef5aa *src/dotsNames.c
+747eb6ee7c6060d846601e3ae4b8582b *src/dotsNames.c
 1c4098d3f662615ed26268422e84ae5e *src/init.c
 070b0a063bc14f81216f936fb895aac2 *tests/helper/helper.R
 a0cf596bf842ac7cab73d837ee3474b7 *tests/test_R_user_dir.R
@@ -91,7 +91,7 @@ cdfdb1d1a0d354ef4cccf55d5c761268 *tests/test_capture.output.R
 d012f4fc8d451334726a1609bb6d0584 *tests/test_dir.exists.R
 ff243305cbfd7c6c20dcf75a8b2f9b2c *tests/test_dotsElt.R
 18ccf5227a80053f5b65dea32dff8562 *tests/test_dotsLength.R
-a2998ce6c9c76d9f6ea3ed1c531d7500 *tests/test_dotsNames.R
+de4e907174f518488cfd4bfa1091d9fb *tests/test_dotsNames.R
 d20ca8e00de706dfca77fc4e7e079a30 *tests/test_file.info.R
 8863972af374c21d56ea2625f357d1c1 *tests/test_file.mode.R
 80309a60390999f8c875299d5343311a *tests/test_file.mtime.R
